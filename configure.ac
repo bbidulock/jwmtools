@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([jwmtools],[0.1.76],[http://github.com/kostelnik/jwmtools/issues])
+AC_INIT([jwmtools],[0.1.77],[http://github.com/kostelnik/jwmtools/issues])
 AC_CONFIG_SRCDIR([libonce/libonce.c])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])

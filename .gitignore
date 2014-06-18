@@ -139,8 +139,11 @@ GTAGS
 \#*#
 .deps
 
+AUTHORS
+ChangeLog
 COPYING
 INSTALL
+TODO
 appmenugen/appmenugen
 movemousecursor/movemousecursor
 s/demo
