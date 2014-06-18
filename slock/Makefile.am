@@ -1,0 +1,8 @@
+
+AM_CFLAGS = $(JWMT_CFLAGS)
+AM_CPPFLAGS = -DVERSION=\"${VERSION}\" -DPREFIX=\"${PREFIX}\"
+AM_LDFLAGS = $(JWMT_LIBS) -lcrypt
+
+bin_PROGRAMS = slock
+
+slock_SOURCES = slock.c
