@@ -2,14 +2,14 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([jwmtools], [0.1], [http://github.com/kostelnik/jwmtools/issues])
+AC_INIT([jwmtools],[0.1.76],[http://github.com/kostelnik/jwmtools/issues])
 AC_CONFIG_SRCDIR([libonce/libonce.c])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([scripts])
 AC_USE_SYSTEM_EXTENSIONS
 
-DATE=`date -uI`
+DATE='2014-06-17'
 AC_SUBST([DATE])
 
 AM_INIT_AUTOMAKE([gnits 1.14 dist-xz no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
