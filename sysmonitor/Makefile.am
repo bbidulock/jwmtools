@@ -5,4 +5,8 @@ AM_LDFLAGS = $(JWMT_LIBS)
 
 bin_PROGRAMS = sysmonitor
 
-sysmonitor_SOURCES = sysmonitor.c
+AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = sysmonitor
+
+sysmonitor_SOURCES = sysmonitor.c sysmonitor-data.h
+
+EXTRA_DIST = sysmonitor-data.c

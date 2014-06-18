@@ -5,6 +5,8 @@ AM_LDFLAGS = $(JWMT_LIBS)
 
 bin_PROGRAMS = trayscript
 
+AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = trayscript
+
 trayscript_SOURCES = trayscript.c
 
-pkgdata_DATA = trayscript.glade
+dist_pkgdata_DATA = trayscript.glade

@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([jwmtools],[0.1.77],[http://github.com/kostelnik/jwmtools/issues])
-AC_CONFIG_SRCDIR([libonce/libonce.c])
+AC_INIT([jwmtools],[0.1.78],[http://github.com/kostelnik/jwmtools/issues])
+AC_CONFIG_SRCDIR([appmenugen/appmenugen.c])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([scripts])
@@ -52,20 +52,20 @@ AC_DEFINE_UNQUOTED([SYS_BATTERY_PATH],["/sys/bus/acpi/drivers/battery/PNP0C0A:00
 		[Path to acpi battery info])
 
 AC_CONFIG_FILES([Makefile
-                 appmenugen/Makefile
-                 libonce/Makefile
-                 movemousecursor/Makefile
-                 s/Makefile
-                 scandirstr/Makefile
-                 slock/Makefile
-                 sysmonitor/Makefile
-                 traybattery/Makefile
-                 traykeymap/Makefile
-                 traymonitor/Makefile
-                 trayscript/Makefile
-                 trayusermount/Makefile
-                 trayvolume/Makefile
-                 trayweather/Makefile
+		 appmenugen/Makefile
+		 libonce/Makefile
+		 movemousecursor/Makefile
+		 scandirstr/Makefile
+		 slock/Makefile
+		 s/Makefile
+		 sysmonitor/Makefile
+		 traybattery/Makefile
+		 traykeymap/Makefile
+		 traymonitor/Makefile
+		 trayscript/Makefile
+		 trayusermount/Makefile
+		 trayvolume/Makefile
+		 trayweather/Makefile
                  xidletools/Makefile])
 dnl AC_CONFIG_SUBDIRS([jwm])
 AC_OUTPUT

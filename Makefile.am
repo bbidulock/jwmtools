@@ -2,19 +2,21 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-	  appmenugen \
-	  movemousecursor \
-	  s \
-	  sysmonitor \
-	  traybattery \
-	  traykeymap \
-	  traymonitor \
-	  trayscript \
-	  trayusermount \
-	  trayvolume \
-	  trayweather \
-	  slock \
-	  xidletools
+	appmenugen \
+	libonce \
+	movemousecursor \
+	scandirstr \
+	slock \
+	s \
+	sysmonitor \
+	traybattery \
+	traykeymap \
+	traymonitor \
+	trayscript \
+	trayusermount \
+	trayvolume \
+	trayweather \
+	xidletools
 
 EXTRA_DIST = INSTALL COPYING AUTHORS AUTHORS.in NEWS NEWS.in README README.in THANKS THANKS.in TODO TODO.in ChangeLog
 

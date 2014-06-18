@@ -5,4 +5,8 @@ AM_LDFLAGS = $(JWMT_LIBS)
 
 bin_PROGRAMS = demo
 
-demo_SOURCES = demo.c
+AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = demo
+
+EXTRA_DIST = s.c
+
+demo_SOURCES = demo.c s.h

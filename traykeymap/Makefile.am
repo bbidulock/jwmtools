@@ -5,6 +5,8 @@ AM_LDFLAGS = $(JWMT_LIBS)
 
 bin_PROGRAMS = traykeymap
 
+AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = traykeymap
+
 traykeymap_SOURCES = traykeymap.c
 
-pkgdata_DATA = traykeymap.glade
+dist_pkgdata_DATA = traykeymap.glade

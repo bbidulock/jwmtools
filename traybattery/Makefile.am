@@ -5,4 +5,6 @@ AM_LDFLAGS = $(JWMT_LIBS)
 
 bin_PROGRAMS = traybattery
 
+AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = traybattery
+
 traybattery_SOURCES = traybattery.c
